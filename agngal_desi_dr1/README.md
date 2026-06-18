@@ -2,7 +2,8 @@
 
 It has been converted to UniverseViewer data format using the `extract.py` script.
 The following filtering has been made on original catalog:
-- no redshift warning flags.
+- no redshift warning flags,
+- no STAR spectral type.
 
 The result has been compressed with:
 ```
