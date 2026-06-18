@@ -1,0 +1,4 @@
+*.gz
+*.dat
+*.fits
+*.sha256sum
