@@ -98,12 +98,12 @@
     "license": "Creative Commons Attribution 4.0 International"
   },
   {
-    "name": "AGN/QSO Value-Added Catalog for DESI DR1",
+    "name": "AGN/Galaxy Classification Value-Added Catalog for DESI DR1",
     "year": 2025,
-    "targets_number": 1647301,
-    "file": "agnqso_desi/qso.gz",
+    "targets_number": 16360818,
+    "file": "agngal_desi_dr1/agngal.gz",
     "author": "DESI Collaboration et al.",
-    "link": "https://data.desi.lbl.gov/doc/releases/dr1/vac/agnqso/",
+    "link": "https://data.desi.lbl.gov/doc/releases/dr1/vac/agngal/",
     "license": "Creative Commons Attribution 4.0 International License"
   }
 ]

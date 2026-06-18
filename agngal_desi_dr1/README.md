@@ -1,18 +1,15 @@
-# AGN/QSO Value-Added Catalog for DESI DR1
+# AGN/Galaxy Classification Value-Added Catalog for DESI DR1
 
 It has been converted to UniverseViewer data format using the `extract.py` script.
 The following filtering has been made on original catalog:
-- `QSO` spectral type,
-- `main` and `sv3` surveys,
-- `dark` and `bright` programs,
 - no redshift warning flags.
 
 The result has been compressed with:
 ```
-gzip -c agnqso_desi_QSO.dat > qso.gz
+gzip -c agngal.dat > agngal.gz
 ```
 
-To run the conversion script, you have to download the `agnqso_desi.fits` file from https://data.desi.lbl.gov/public/dr1/vac/dr1/agnqso/v1.0/ URL.
+To run the conversion script, you have to download the `agngal_desi.fits` file from https://data.desi.lbl.gov/public/dr1/vac/dr1/agngal/v1.0/ URL.
 
 ## Acknowledgments
 
@@ -24,7 +21,11 @@ This catalog is licensed under the [Creative Commons Attribution 4.0 Internation
 
 ## References
 
-- EDR: [DESI Collaboration et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024AJ....168...58D/abstract), “The Early Data Release of the Dark Energy Spectroscopic Instrument”; or
-- DR1: [DESI Collaboration et al. (2025)](https://arxiv.org/abs/2503.14745) “Data Release 1 of the Dark Energy Spectroscopic Instrument”
+- [AGN/Galaxy Classification Value-Added Catalog for DESI DR1](https://data.desi.lbl.gov/doc/releases/dr1/vac/agngal)
+- [Data Release 1 (DR1)](https://data.desi.lbl.gov/doc/releases/dr1/)
+- [Glossary](https://data.desi.lbl.gov/doc/glossary/#program)
 
-See https://data.desi.lbl.gov/doc/releases/dr1/vac/agnqso/ for details.
+Publications:
+
+- EDR: [DESI Collaboration et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024AJ....168...58D/abstract), “The Early Data Release of the Dark Energy Spectroscopic Instrument”
+- DR1: [DESI Collaboration et al. (2025)](https://arxiv.org/abs/2503.14745) “Data Release 1 of the Dark Energy Spectroscopic Instrument”

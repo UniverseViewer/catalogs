@@ -64,10 +64,10 @@ Here is a summary of currently supported catalogs for [Universe Viewer](https://
 - [More details here](/public/catalogs/quaia/README.md)
 - **License:** Creative Commons Attribution 4.0 International
 
-## AGN/QSO Value-Added Catalog for DESI DR1
+## AGN/Galaxy Classification Value-Added Catalog for DESI DR1
 
 - **Authors:** DESI Collaboration et al.
 - **Date:** 2025
-- [Website](https://data.desi.lbl.gov/doc/releases/dr1/vac/agnqso)
-- [More details here](/public/catalogs/agnqso_desi/README.md)
+- [Website](https://data.desi.lbl.gov/doc/releases/dr1/vac/agngal/)
+- [More details here](/public/catalogs/agngal_desi_dr1/README.md)
 - **License:** Creative Commons Attribution 4.0 International License
